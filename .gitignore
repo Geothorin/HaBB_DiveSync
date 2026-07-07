@@ -1,0 +1,50 @@
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+
+# ── PyInstaller output ────────────────────────────────────────────────────
+dist_package/
+*.spec.bak
+
+# ── Virtual environments ──────────────────────────────────────────────────
+venv/
+env/
+.venv/
+.env
+
+# ── Backup and temporary files ────────────────────────────────────────────
+*.bak
+*.tmp
+*.swp
+*~
+
+# ── Test / sample dive data (not part of the source distribution) ─────────
+NTN0032/
+CHR0601/
+Test/
+
+# ── Internal working documents ────────────────────────────────────────────
+ToFix.docx
+Doppio
+
+# ── Distribution packages (generated artefacts, not source) ──────────────
+HaBB_DiveSync_tool.zip
+*.zip
+
+# ── NSIS installer binary (third-party, not project code) ────────────────
+nsis-*.exe
+
+# ── IDE and OS files ──────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it using the metadata below."
+type: software
+title: "HaBB DiveSync: a Python tool for synchronising underwater video, USBL and CTD data for habitat mapping"
+version: 1.0.0
+date-released: "2026-07-07"
+license: MIT
+repository-code: "https://github.com/YOUR_GITHUB_USERNAME/habb-divesync"
+url: "https://github.com/YOUR_GITHUB_USERNAME/habb-divesync"
+doi: "ZENODO_DOI_PLACEHOLDER"
+
+abstract: >
+  HaBB DiveSync is a desktop GUI tool for synchronising underwater video
+  recordings with USBL positioning data and CTD sensor data, designed for
+  habitat mapping with ROVs, submersibles and towed camera systems.
+  It detects video start timestamps using multiple cascading strategies,
+  aligns the CTD clock via interactive drag and robust cross-correlation
+  auto-alignment, and batch-extracts geotagged frames with a GIS-ready
+  companion CSV and optional shapefile export.
+
+keywords:
+  - ROV
+  - marine habitat mapping
+  - underwater video
+  - USBL
+  - CTD
+  - video synchronisation
+  - frame extraction
+  - benthic ecology
+  - Red Sea
+
+authors:
+  - family-names: "Marchese"
+    given-names: "Fabio"
+    affiliation: "BESE Division, King Abdullah University of Science and Technology (KAUST)"
+    orcid: "https://orcid.org/0000-0001-8384-3019"
+
+  - family-names: "Benzoni"
+    given-names: "Francesca"
+    affiliation: "Marine Science Program, BESE Division, King Abdullah University of Science and Technology (KAUST)"
+    orcid: "https://orcid.org/0000-0001-8906-1309"
