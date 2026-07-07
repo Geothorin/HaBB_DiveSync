@@ -45,7 +45,7 @@ Requires **Python 3.8+**.
 git clone https://github.com/Geothorin/habb-divesync.git
 cd habb-divesync
 pip install -r requirements.txt
-python rov_sync_tool.py
+python HaBB_Sync_tool.py
 ```
 
 Or, on Windows, double-click `install.bat` to install dependencies automatically, then `avvia_rov_Tool.bat` to launch.
@@ -83,7 +83,7 @@ Full documentation: see `HaBB_DiveSync_Manual_EN.pdf` (English) and `HaBB_DiveSy
 
 ```
 habb-divesync/
-├── rov_sync_tool.py          # Main application
+├── HaBB_Sync_tool.py          # Main application
 ├── lang.py                   # UI string translations (EN/IT)
 ├── requirements.txt          # Python dependencies
 ├── install.bat               # Windows: installs dependencies
