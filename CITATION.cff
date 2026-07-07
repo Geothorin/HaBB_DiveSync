@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software in your research, please cite it using the metadata below."
 type: software
-title: "HaBB DiveSync: a Python tool for synchronising underwater video, USBL and CTD data for habitat mapping"
+title: "HaBB DiveSync: a Python tool for synchronising underwater video, USBL and CTD data for benthic habitat mapping"
 version: 1.0.0
 date-released: "2026-07-07"
 license: MIT
