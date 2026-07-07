@@ -1,6 +1,6 @@
 # HaBB DiveSync
 
-**A Python tool for synchronising underwater video, USBL and CTD data for habitat mapping**
+**A Python tool for synchronising underwater video, USBL and CTD data for benthic habitat mapping**
 
 Developed at the [HaBB Lab — Habitat and Benthic Biodiversity](https://www.kaust.edu.sa), Red Sea Research Center, KAUST.
 
