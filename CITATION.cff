@@ -5,9 +5,9 @@ title: "HaBB DiveSync: a Python tool for synchronising underwater video, USBL an
 version: 1.0.0
 date-released: "2026-07-07"
 license: MIT
-repository-code: "https://github.com/YOUR_GITHUB_USERNAME/habb-divesync"
-url: "https://github.com/YOUR_GITHUB_USERNAME/habb-divesync"
-doi: "ZENODO_DOI_PLACEHOLDER"
+repository-code: "https://github.com/Geothorin/habb-divesync"
+url: "https://github.com/Geothorin/habb-divesync"
+doi: "10.5281/zenodo.21237716"
 
 abstract: >
   HaBB DiveSync is a desktop GUI tool for synchronising underwater video

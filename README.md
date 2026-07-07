@@ -42,7 +42,7 @@ No Python or any other software required. Just double-click and run.
 Requires **Python 3.8+**.
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/habb-divesync.git
+git clone https://github.com/Geothorin/habb-divesync.git
 cd habb-divesync
 pip install -r requirements.txt
 python rov_sync_tool.py
@@ -87,9 +87,6 @@ habb-divesync/
 ├── lang.py                   # UI string translations (EN/IT)
 ├── requirements.txt          # Python dependencies
 ├── install.bat               # Windows: installs dependencies
-├── avvia_rov_Tool.bat        # Windows: launches from Python source
-├── build_exe.bat             # Windows: builds standalone .exe with PyInstaller
-├── ROV_Sync_Tool.spec        # PyInstaller spec file
 ├── Logos/                    # HaBB Lab logo assets
 ├── HaBB_DiveSync_Manual_EN.pdf   # English user manual
 ├── HaBB_DiveSync_Manual_IT.pdf   # Italian user manual
@@ -104,21 +101,9 @@ habb-divesync/
 
 If you use HaBB DiveSync in your research, please cite it using the metadata in `CITATION.cff` or the reference below.
 
-> Marchese, F., et al. (2026). *HaBB DiveSync: a Python tool for synchronising underwater video, USBL and CTD data for habitat mapping* (v1.0). Zenodo. https://doi.org/XXXXXXX
+> Marchese, F., Benzoni, F. (2026). *HaBB DiveSync: a Python tool for synchronising underwater video, USBL and CTD data for habitat mapping* (v1.0). Zenodo. https://doi.org/10.5281/zenodo.21237716
 
 A formatted citation is also available directly from the GitHub sidebar ("Cite this repository") once the DOI is registered on Zenodo.
-
----
-
-## Building the Windows executable
-
-To rebuild the standalone `.exe` after modifying the source:
-
-```
-build_exe.bat
-```
-
-The script installs PyInstaller, compiles `rov_sync_tool.py` into a single self-contained executable (`dist_package\ROV_Sync_Tool.exe`) and optionally creates an NSIS installer if [NSIS](https://nsis.sourceforge.io/) is installed.
 
 ---
 
@@ -133,4 +118,4 @@ This project is licensed under the **MIT License** — see `LICENSE` for details
 - **Fabio Marchese** — BESE Division, King Abdullah University of Science and Technology (KAUST)
 - **Francesca Benzoni** — Marine Science Program, BESE Division, King Abdullah University of Science and Technology (KAUST)
 
-<!-- ZENODO_BADGE_PLACEHOLDER -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21237716.svg)](https://doi.org/10.5281/zenodo.21237716)
